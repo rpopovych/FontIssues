@@ -78,7 +78,7 @@
 <div id="outputDiv"></div>
 
 <script>
-
+    $.ready(function() {
 	var span = $('#measureSpan');
 	var div = $('#outputDiv');
 	var text = 'abcdef ghijklm nopqr stuvw xyz0123 456789A BCDEFGHI JKLMNOPQ RSTUVW XYZ';
@@ -103,6 +103,7 @@
 	results += '</table>';
 	
 	div.html(results);
+    });
 </script>
 
 </body>
